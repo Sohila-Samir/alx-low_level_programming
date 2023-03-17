@@ -1,22 +1,25 @@
 #include <stdio.h>
-#include <string.h>
 
 /**
  * main - entry point
  *
- * Descriptopn: a program that loops through
- * an array of alphabet characters and prints them to the standard output.
+ * Description: prints alphabet characters in lowercase
+ * through using a loop that loops through an array of characters
+ * that holds the characters in lowercase.
  *
- * Return: always 0 (success)
+ * Return: always 0 (success).
  */
 int main(void)
 {
-	int i;
-	char alphabets[30] = "abcdefghijklmnopqrstuvwxyz\n";
+        int i;
+        char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
 
-	for (i = 0; i < (int) strlen(alphabets); i++)
-	{
-		putchar(alphabets[i]);
-	}
-	return (0);
+        for (i = 0; i < 26; i++)
+        {
+                putchar(alphabet[i]);
+        }
+
+        putchar('\n');
+
+        return (0);
 }
