@@ -10,12 +10,17 @@
 int main(void)
 {
 	int i;
+	int maximum = 10;
 
-	for (i = 0; i < 10; i++)
+	for (i = 0; i < maximum; i++)
 	{
 		putchar('0' + i);
-		putchar(',');
-		putchar(' ');
+
+		if (i != maximum - 1)
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
 
 	putchar('\n');
