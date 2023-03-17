@@ -11,15 +11,15 @@
  */
 int main(void)
 {
-        int i;
-        char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
+	char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
 
-        for (i = 0; i < 26; i++)
-        {
-                putchar(alphabet[i]);
-        }
+	for (i = 0; i < 26; i++)
+	{
+		putchar(alphabet[i]);
+	}
 
-        putchar('\n');
+	putchar('\n');
 
-        return (0);
+	return (0);
 }
