@@ -14,10 +14,10 @@
 int _isalpha(int c)
 {
 	/*
-	- 65: start of the ASCII codes for lowercase charachters.
-	- 90: end of the ASCII codes for lowercase charachters.
-	- 97: start of the ASCII codes for uppercase charachters.
-	- 122: end of the ASCII codes for uppercase charachters.
+	 * - 65: start of the ASCII codes for lowercase charachters.
+	 * - 90: end of the ASCII codes for lowercase charachters.
+	 * - 97: start of the ASCII codes for uppercase charachters.
+	 * - 122: end of the ASCII codes for uppercase charachters.
 	*/
 	if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
 	{
