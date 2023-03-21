@@ -4,7 +4,8 @@
 ## Contents
 - [main folder](./main/)
 - [0-putchar.c](./0-putchar.c)
-- [1-alphabet](./1-alphabet.c)
+- [1-alphabet.c](./1-alphabet.c)
+- [2-alphabet_x10.c](./2-alphabet_x10.c)
 
 ## main
 a folder that contains all the main `c` files that uses the other function files.
@@ -15,4 +16,5 @@ the requirments of this task.
 
 ## Files Descriptions
 - 0-putchar.c: prints `_putchar` string followed by a new line.
-- 1-alphabet: prints the alphabet, in lowercase, followed by a new line.
+- 1-alphabet.c: prints the alphabet, in lowercase, followed by a new line.
+- 2-alphabet_x10.c: prints the alphabet, in lowercase, 10 ten times, followed by a new line.
