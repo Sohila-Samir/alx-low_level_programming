@@ -19,7 +19,7 @@ int main(void)
  *
  * Description: a function that prints _putchar, followed by a new line.
  *
- * Return: void
+ * Return: always 0 (success)
 */
 void print_string_msg(void)
 {
