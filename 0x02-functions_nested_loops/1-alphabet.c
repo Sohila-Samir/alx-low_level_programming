@@ -1,7 +1,5 @@
 #include "main.h"
 
-void print_alphabet(void);
-
 /**
  * main - entry point
  *
@@ -16,15 +14,20 @@ int main(void)
 	return (0);
 }
 
-void print_alphabet(void) {
-    int lower_start = 97;
-    int lower_end = 122;
+/**
+ * print_alphabet - prints the alphabet in lowercase
+ *
+ * Return: void
+*/
+void print_alphabet(void)
+{
+	int lower_start = 97;
+	int lower_end = 122;
 
-    for (; lower_start <= lower_end; lower_start++)
-    {
-        putchar(lower_start);
-    }
+	for (; lower_start <= lower_end; lower_start++)
+	{
+		_putchar(lower_start);
+	}
 
-    putchar('\n');
-    return;
+	_putchar('\n');
 }
