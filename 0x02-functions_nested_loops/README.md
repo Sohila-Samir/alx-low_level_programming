@@ -7,6 +7,7 @@
 - [1-alphabet.c](./1-alphabet.c)
 - [2-alphabet_x10.c](./2-alphabet_x10.c)
 - [3-islower.c](./3-islower.c)
+- [4-isalpha.c](./4-isalpha.c)
 
 ## main
 a folder that contains all the main `c` files that uses the other function files.
@@ -19,4 +20,4 @@ the requirments of this task.
 - 0-putchar.c: a function that prints `_putchar` string followed by a new line.
 - 1-alphabet.c: a function that prints the alphabet, in lowercase, followed by a new line.
 - 2-alphabet_x10.c: a function that prints the alphabet, in lowercase, 10 ten times, followed by a new line.
-- 3-islower.c: a function that checks for lowercase character.
+- 4-isalpha.c: a function that checks for alphabetic character. wheather it's a lowercase, uppercase, letter or none of them. 
