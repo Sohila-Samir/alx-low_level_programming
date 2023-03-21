@@ -9,6 +9,7 @@
 - [3-islower.c](./3-islower.c)
 - [4-isalpha.c](./4-isalpha.c)
 - [5-sign.c](./5-sign.c)
+- [6-abs.c](./6-abs.c)
 
 ## main
 a folder that contains all the main `c` files that uses the other function files.
@@ -23,3 +24,4 @@ the requirments of this task.
 - 2-alphabet_x10.c: a function that prints the alphabet, in lowercase, 10 ten times, followed by a new line.
 - 4-isalpha.c: a function that checks for alphabetic character. wheather it's a lowercase, uppercase, letter or none of them. 
 - 5-sign.c: a function that prints the sign of a number. wheather it's positive or negative or a zero.
+- 6-abs.c: a function that computes the absolute value of an integer.
