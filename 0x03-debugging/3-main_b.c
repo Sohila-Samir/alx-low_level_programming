@@ -12,6 +12,7 @@ int main(void)
 	int month;
 	int day;
 	int year;
+	int year_day;
 
 	month = 2;
 	day = 29;
@@ -19,9 +20,17 @@ int main(void)
 
 	printf("Date: %02d/%02d/%04d\n", month, day, year);
 
-	day = convert_day(month, day);
+	year_day = convert_day(month, day);
 
-	print_remaining_days(month, day, year);
+	if (year_day == day && month != 1)
+	{
+		printf("Invalid date: %02d/%02d/%04d\n", month, day, year);
+	}
+	else
+	{
+		print_remaining_days(month, year_day, year);
+	}
+
 
 	return (0);
 }

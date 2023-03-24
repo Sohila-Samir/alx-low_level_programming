@@ -5,7 +5,8 @@
 * for leap year
 * @month: month in number format
 * @day: day of month
-* Return: day of year
+* Return: day of year if day and month combination is valid and the same
+* invalid day otherwise.
 */
 
 int convert_day(int month, int day)
@@ -35,6 +36,13 @@ int convert_day(int month, int day)
 	months[8] = sep;
 	months[9] = oct;
 	months[10] = nov;
+
+	if ((month <= 1 && month >= 12)
+		|| (months[month - 2] + day > months[month - 1] && month != 2)
+	)
+	{
+		return (day);
+	}
 
 	day = month == 1 ? day : months[month - 2] + day;
 
